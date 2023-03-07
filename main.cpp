@@ -498,15 +498,3 @@ int main( int argc, char** argv ) {
     SDL_Quit();
     return 0;
 }
-
-/*
-сортировка массива
-
-int arr[ N ] = { ... };
-
-for ( int n = N; n > 1; n-- ) {
-    for ( int i = 0; i < n - 1; i++ ) {
-        if ( arr[ i ] > arr[ n - 1 ] ) { swap( arr[ i ], arr[ n - 1 ] ); }
-    }
-}
-*/
